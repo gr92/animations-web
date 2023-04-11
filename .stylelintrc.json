@@ -1,0 +1,19 @@
+{
+   "extends": "stylelint-config-standard",
+   "rules": {
+      "string-quotes": "single",
+      "max-line-length": 200,
+      "font-family-name-quotes": "always-unless-keyword",
+      "indentation": 3,
+      "color-function-notation": "legacy",
+      "alpha-value-notation": "number"
+   },
+   "overrides": [
+      {
+         "files": [
+            "**/*.js"
+         ],
+         "customSyntax": "postcss-html"
+      }
+   ]
+}
